@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    /* background : url('https://preview.colorlib.com/theme/luxuryhotel/images/big_image_1.jpg.webp'); */
+    background : url('https://alltopcollections.com/wp-content/uploads/2019/03/bedroom-at-night-fresh-bedroom-night-bestsciaticatreatments-of-bedroom-at-night-1.jpg');
+}
+body::-webkit-scrollbar
+{
+    display: none;
+}
+.App
+{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+html {
+    scroll-behavior: smooth;
+  }

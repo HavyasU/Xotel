@@ -1,0 +1,73 @@
+body {
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: none;
+    height: 100vh;
+
+    & .background-cover {
+        background: black;
+        min-width: 100vw;
+        min-height: 100vh;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        opacity: .1;
+    }
+}
+
+#Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+
+    & h1 {
+        padding: auto;
+        font-size: 90px;
+        color: white;
+        text-shadow: 0 10px 20px black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    & h3 {
+        padding: auto;
+        font-size: 35px;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-weight: 900;
+        color: white;
+        /* margin-left: -39rem; */
+        text-shadow: 0 10px 20px black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    & .btn {
+        min-width: 9rem;
+        min-height: 3rem;
+        font-weight: 800;
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        margin-top: 36px;
+        box-shadow: 0 0 10px black;
+        border: 3px solid rgb(20, 75, 194);
+        box-shadow: 4px 4px 20px black;
+        text-shadow: 0 10px 20px black;
+        cursor: pointer;
+        transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        /* margin-left: -39rem; */
+    }
+    
+    & .btn:hover 
+    {
+        background-color:  rgb(20, 75, 194);
+        box-shadow: 0 0 20px  rgb(20, 75, 194), 0 0px 50px rgb(39, 107, 255), 0 10px 20px black ;
+        border: 3px solid rgb(247, 245, 245);
+    }
+}

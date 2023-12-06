@@ -1,0 +1,7 @@
+./node_modules
+./client/node_modules
+./client/node_modules
+./client/xotel/node_modules
+.vscode
+client\node_modules
+client/node_modules

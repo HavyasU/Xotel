@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 4rem;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container .top-destinations {
+    width: 100%;
+    height: 100%;
+}
+
+.top-destinations {
+    background: white;
+    padding: 20px;
+}
+
+.top-destinations h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-block: 20px;
+}
+
+.top-destinations .dest-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 20px;
+}
+
+.dest-container .dest-card {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dest-container .dest-card:hover {
+    transform: scale(1.1);
+}
+
+.dest-container .dest-card:hover img {
+    transform: scale(1.05);
+}
+
+.dest-container .dest-card:hover h3 {
+    letter-spacing: 1px;
+
+}
+
+.dest-card h3 {
+    position: absolute;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 0 10px black;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dest-card img {
+    object-fit: contain;
+    aspect-ratio: 2/4;
+    transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.rooms {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+.rooms .rooms-heading {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1rem 0;
+}
+
+.rooms .room-img {
+    width: 100%;
+    min-height: 40rem;
+    position: relative;
+}
+
+.rooms .room-img img {
+    border-radius: 1rem;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.rooms .room-img .r-img-1 {
+    position: absolute;
+    top: 3.8rem;
+    left: 35rem;
+    width: 20rem;
+}
+
+.rooms .room-img .r-img-2 {
+    position: absolute;
+    top: 1rem;
+    left: 57rem;
+    width: 20rem;
+}
+
+.rooms .room-img .r-img-3 {
+    width: 20rem;
+    position: absolute;
+    top: 1rem;
+    left: 13rem;
+}
+
+.space {
+    min-width: 100%;
+    min-height: 20rem;
+    background: linear-gradient(to left top, hsl(328, 100%, 59%), hsl(25, 100%, 50%));
+    background: linear-gradient(to left top, hsl(249, 100%, 59%), hsl(302, 99%, 44%));
+    opacity: .7;
+}
